@@ -11,6 +11,9 @@ This project is built with:
 - ![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 
+## Installation
+Steps to install and run the project.
+
 ```bash
 # Clone the repository
 git clone https://github.com/username/repository.git
