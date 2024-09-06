@@ -1,0 +1,74 @@
+/* Importing custom font */
+@font-face {
+  font-family: "yekan";
+  src: url("../../public/fonts/YekanBakhFaNum03Light.woff") format("woff"),
+    url("../../public/fonts/YekanBakhFaNum02Thin.woff") format("woff");
+}
+:root {
+  font-family: "yekan", Arial, sans-serif;
+}
+/* Basic styling for the body */
+body {
+  background: url("../../public/images/pexels-nickkwanhk-2806520.jpg") no-repeat
+    center center fixed;
+  background-size: cover;
+  direction: rtl;
+}
+/********** Start Card **********/
+.card {
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  display: flex;
+  overflow: hidden; /* Ensure the image and form stay inside the card */
+}
+
+/* Styling for form controls */
+.card-body .form-control {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body .form-control:focus {
+  border-color: #ff0000;
+  box-shadow: none;
+}
+
+/* Styling for buttons */
+.card-body .btn-danger {
+  background-color: #ff0000;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body .btn-danger:hover {
+  background-color: #d40000;
+}
+
+/* Styling for headings */
+.card-body h2 {
+  font-weight: bold;
+  color: #595050;
+}
+
+/* Styling for paragraphs */
+.card-body p {
+  color: #666;
+}
+
+.card-body p a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.card-body p a:hover {
+  text-decoration: underline;
+}
+/********** End Card **********/

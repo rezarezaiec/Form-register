@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/plugins/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/master.css" />
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="row">
+            <!-- Start Card -->
+            <div class="col-md-12">
+                <div class="card mx-auto rounded shadow d-flex flex-row p-4">
+                    <div class="row no-gutters">
+                        <div class="card-body">
+                            <!-- Start Card Title -->
+                            <h2 class="text-center mb-4">ثبت‌ نام</h2>
+                            <!-- End Card Title -->
+                            <!-- Start Card nody -->
+                            <form dir="rtl" autocomplete="off" method="post" novalidate>
+                                <div class="row">
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="text" class="form-control" id="first_name" placeholder="نام"
+                                                name="first_name">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="text" class="form-control" id="last_name"
+                                                placeholder="نام خانوادگی" name="last_name">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <div class="row">
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="text" class="form-control" id="national_code"
+                                                placeholder="کدملی" name="national_code">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="text" class="form-control" id="username"
+                                                placeholder="نام کاربری" name="username">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <div class="row">
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="text" class="form-control" id="phone_number"
+                                                placeholder="شماره تماس" name="phone_number">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="number" class="form-control" id="age" placeholder="سن"
+                                                name="age" min="1" max="100">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <div class="row">
+                                    <!-- Start Form Group -->
+                                    <div class="col-12">
+                                        <div class="form-group mb-3">
+                                            <input type="email" class="form-control" id="email" placeholder="ایمیل"
+                                                name="email">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <div class="row">
+                                    <!-- Start Form Group -->
+                                    <div class="col-12">
+                                        <div class="form-group mb-3">
+                                            <label>جنسیت :</label><br>
+                                            <input type="radio" name="gender" id="male" value="male">
+                                            <label for="male">مرد</label>
+                                            <input type="radio" name="gender" id="female" value="female">
+                                            <label for="female">زن</label>
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <div class="row">
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="password" class="form-control" id="password"
+                                                placeholder="رمز عبور" name="password">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                    <!-- Start Form Group -->
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <input type="password" class="form-control" id="repeat_password"
+                                                placeholder="تکرار رمز عبور" name="repeat_password">
+                                        </div>
+                                    </div>
+                                    <!-- End Form Group -->
+                                </div>
+                                <!-- Start Form Btn -->
+                                <button type="submit" class="btn btn-danger btn-block mt-3 w-100">ثبت‌نام</button>
+                                <p class="text-center mt-3">قبلا ثبت‌نام کرده‌اید؟ <a href="#">ورود</a></p>
+                                <!-- End Form Btn -->
+                            </form>
+                            <!-- End Card nody -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Card -->
+        </div>
+    </div>
+
+    <script src="./assets/plugins/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
