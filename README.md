@@ -1,8 +1,8 @@
 # Preview
 ![Project preview](./preview.png "Project Preview")
 
-# Project Title
-A brief description of your project goes here.
+# Form Registration Project
+This project is designed to create and manage a user registration form.
 
 ## Technologies Used
 This project is built with:
